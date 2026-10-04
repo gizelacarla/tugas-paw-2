@@ -39,12 +39,12 @@ h1 {
 }
 
 /* HEADER */
-    .nav-container {
-        background-color: var(--dark-color);
-        position: sticky;
-        top: 0px;
-        z-index: 100;
-        }
+.nav-container {
+background-color: var(--dark-color);
+position: sticky;
+top: 0px;
+z-index: 100;
+}
 
 .nav-container header {
 display: flex;
@@ -309,7 +309,7 @@ text-decoration: none;
 
 .nav-container nav { display: none; }
 
-.nav-container header input:checked ~ nav { 
+.nav-container header input:checked ~ nav {
     display: flex;
 }
   /* END OF HEADER */
@@ -356,7 +356,6 @@ text-decoration: none;
 
 /* BREAKPOINT HANDPHONE */
 @media screen and (max-width: 481px){
-    /* Kode CSS Di Sini */
     /* BLOG */
 .blog-container .snippet {
     width: 98%;
@@ -373,5 +372,4 @@ text-decoration: none;
 }
   /* END OF FOOTER */
 }
-
 

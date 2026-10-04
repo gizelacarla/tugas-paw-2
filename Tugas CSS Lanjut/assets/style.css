@@ -292,20 +292,18 @@ a {
     margin-bottom: 20px !important;
 }
 
-/* Khusus Logo Telkom: Ubah gambar hitam menjadi putih solid */
 .logo-telu {
     height: 38px !important;
     width: auto !important;
     object-fit: contain !important;
-    filter: brightness(0) invert(1) !important; /* Membuat logo telkom jadi putih polos */
+    filter: brightness(0) invert(1) !important;
 }
 
-/* Khusus Logo Kampus Merdeka: Tampilkan warna asli tanpa filter */
 .logo-merdeka {
     height: 38px !important;
     width: auto !important;
     object-fit: contain !important;
-    filter: none !important; /* Hapus filter agar tulisan & warna kuningnya tidak berubah jadi kotak putih */
+    filter: none !important;
 }
 
 .footer-logo-combined {
@@ -410,20 +408,18 @@ a {
     margin-bottom: 20px !important;
 }
 
-/* Khusus Logo Telkom: Ubah gambar hitam jadi putih solid (hasilnya bakal cakep kaya screenshotmu) */
 .logo-telu {
     height: 38px !important;
     width: auto !important;
     object-fit: contain !important;
-    filter: brightness(0) invert(1) !important; /* Membuat logo Telkom jadi putih polos */
+    filter: brightness(0) invert(1) !important;
 }
 
-/* Khusus Logo Kampus Merdeka: Tampilkan warna asli TANPA FILTER */
 .logo-merdeka {
     height: 38px !important;
     width: auto !important;
     object-fit: contain !important;
-    filter: none !important; /* Biar warnanya tetap biru-kuning & gak jadi kotak putih */
+    filter: none !important;
     mix-blend-mode: screen;
 }
 
